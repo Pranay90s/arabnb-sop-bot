@@ -1,0 +1,20 @@
+{
+  "name": "arabnb-sop-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that answers questions using Arabnb SOPs from Notion",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.0",
+    "@notionhq/client": "^2.2.14",
+    "@anthropic-ai/sdk": "^0.24.0",
+    "dotenv": "^16.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
